@@ -1,0 +1,11 @@
+# 기록용 => application-upload.yml
+# 해당 환경에 맞게 설정하기!!
+
+spring:
+  # Database 설정 - MariaDB
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver # DB 드라이버 설정
+    url: jdbc:mariadb://localhost:3306/security?serverTimezone=Asia/Seoul # DB url 입력
+    username: #username 입력
+    password: #password 입력
+
